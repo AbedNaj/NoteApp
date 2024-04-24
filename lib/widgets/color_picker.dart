@@ -16,11 +16,11 @@ class ColorPicker extends StatefulWidget {
 class _ColorPickerState extends State<ColorPicker> {
   int currentIndex = 0;
   List<Color> colors = const [
-    Color(0xff1976D2),
-    Color(0xffFFC107),
-    Color(0xff1E88E5),
-    Color(0xffFFD700),
     Color(0xff0D47A1),
+    Color(0xff1976D2),
+    Color(0xff1E88E5),
+    Color(0xffFFC107),
+    Color(0xffFFD700),
     Color(0xffC62828),
     Color(0xff009688),
     Color(0xff9C27B0),
